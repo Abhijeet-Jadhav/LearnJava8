@@ -13,9 +13,9 @@ public class EmployeeUtility {
 		super();
 		list.put(101, new Employee(101,"a","a1"));
 		list.put(102, new Employee(102,"b","b1"));
-		list.put(103, new Employee(103,"c","c1"));
-		list.put(104, new Employee(105,"c","a1"));
-		list.put(105, new Employee(105,"c","a1"));
+		list.put(103, new Employee(103,"c","c1",7676432));
+		list.put(104, new Employee(105,"c","a1",142343));
+		list.put(105, new Employee(105,"c","a1",12434));
 	}
 	
 	public Employee findEmployee(int id){

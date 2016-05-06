@@ -5,6 +5,21 @@ public class Employee {
 	private int id;
 	private String name;
 	private String designation;
+	private double salary;
+	
+	public Employee(int id, String name, String designation, double salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.designation = designation;
+		this.salary = salary;
+	}
+
+	public Employee(){
+		id=1;
+		name="abhijeet";
+		designation="developer";
+	}
 	
 	public Employee(int id, String name, String designation) {
 		super();
@@ -37,10 +52,20 @@ public class Employee {
 		this.designation = designation;
 	}
 
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", designation=" + designation + "]";
+		return "Employee [id=" + id + ", name=" + name + ", designation=" + designation + ", salary=" + salary + "]";
 	}
+
+	
 	
 	
 }
