@@ -1,7 +1,9 @@
 package com.emc.training.streaming;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 import com.emc.training.methodReferences.Employee;
 import com.emc.training.methodReferences.EmployeeUtility;
@@ -9,9 +11,26 @@ import com.emc.training.methodReferences.EmployeeUtility;
 public class StreamTest2 {
 
 	public static void main(String arg[]){
-		EmployeeUtility utility = new EmployeeUtility();
-		List<Employee> employees = utility.getAllEmployees();
-		Function<Employee, Employee> func = e->new Employee(e.getId(),e.getName(),e.getDesignation(),e.getSalary()+1000); 
-		employees.stream().map(func).forEach(System.out::println); 
+		String[] fruits = {"applE","orange","mango"};
+		List<String> list = Arrays.asList(fruits);
+		
+		//list.stream().filter(s->s.length()<=5).map(s->s.toUpperCase()).forEach(System.out::println);
+		list.stream().filter(s->s.length()<=5).map(String::toUpperCase).forEach(System.out::println);
+		
+		Stream<Double> stream = Stream.of(12.0,123.34,123.45,456.34);
+		stream.map(Math::sqrt).forEach(System.out::println);
+		
+		//int[] array = new int[100];
+		// stream doesn't work on primitive types
+		
+		Integer[] array = new Integer[100];
+		for(int i=0; i<array.length;i++)
+			array[i] = (int)(Math.random()*100);
+		Arrays.asList(array).stream().parallel().
+		forEach(no->System.out.println(Thread.currentThread().getName()+" "+no));
+		
+		Stream.of(array).parallel().
+		forEach(no->System.out.println(Thread.currentThread().getName()+" "+no));
+		
 	}
 }
