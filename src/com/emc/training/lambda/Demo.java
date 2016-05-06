@@ -1,3 +1,4 @@
+package com.emc.training.lambda;
 
 public class Demo {
 	public static void main(String[] args) {
