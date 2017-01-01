@@ -21,6 +21,10 @@ encapsulating a function in a variable that can be passed around.
 
 you can pass an inline lambda expression too i.e. without using a variable name to hold the expression.
 
+Lambdas in Java 8 are basically a special case of anonymous classes (namely, an anonymous class which implements an interface
+with exactly one method (a "functional interface"), and which has no instance variables, and which does not refer to itself
+(using this explicitly or implicitly)).
+Any lambda can be re-written into an equivalent anonymous class expression. So what is said above also apply to lambdas.
 
 examples of lambda expressions:
 
@@ -77,8 +81,15 @@ Performs this operation on the given argument.
 
 * Exception Handling in Lambdas
 
+* closures in java - conjunction with  lambda
+Implementing procedure contexts as first-class objects (i.e. closures) requires that the lifetime of certain local
+variables extends beyond the return of the declaring method call.
 
-
+To me, a "closure" is something (a function or object or other thing that can be run in some way like having methods)
+that captures ("closes over") a local variable from its enclosing scope, and which can use that variable in its code,
+even when the function or object's method is run at a later time, including when the enclosing scope no longer exists.
+By this definition, Java anonymous classes (which have been there since Java 1.1) are closures, since they can refer
+to local variables from its enclosing scope.
 
 
 
