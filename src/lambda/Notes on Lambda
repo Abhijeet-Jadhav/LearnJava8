@@ -1,0 +1,44 @@
+Java 8 : lambda Basics
+
+Lambdas enable functional programming.
+They eliminate boiler plate code and make code concise.
+Enable support for parallel processing.
+
+what problem does functional programming solve ?
+
+
+we pass a behavior(class implementation of interface) to a method.
+using lambdas we can pass actions(methods directly) to a method.
+
+lambads are methods existing in isolation, not a method of particular class.
+
+Data acts as a value to variables, you can assign it to primitive types.
+
+Java 8:
+inline value/ Function as a value,
+ block of code can be a value and assigned to a variable. not the value of code after execution  but the block itself can be treated as a variable.
+encapsulating a function in a variable that can be passed around.
+
+you can pass an inline lambda expression too i.e. without using a variable name to hold the expression.
+
+
+examples of lambda expressions:
+
+greetingFunction = () -> System.out.println();
+
+doubleTheNumber = (int a) -> a * 2;
+
+addNumbers = (int a, int b) -> a + b;
+
+safeDivide = (int a, int b) -> {
+    if(b == 0)
+        return 0;
+    else
+        a / b;
+};
+
+strLength = (String s) -> s.length();
+
+When you are using an interface for lambda expression type, that interafce should have only one method.
+i.e that interace should be a functional interface.
+
