@@ -56,6 +56,9 @@ Functional Interface are interfaces having one and only one abstract method.
 This property can be enfored on interface usign @FunctionalInterface annotation.
 For Lambda expression types we use Functional interfaces.
 
+Standard Functional interfaces:
+java.util.functions provides out the box functional interface which can be used for lambda expression type.
+
 
 
 

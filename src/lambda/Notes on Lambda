@@ -56,6 +56,28 @@ Functional Interface are interfaces having one and only one abstract method.
 This property can be enfored on interface usign @FunctionalInterface annotation.
 For Lambda expression types we use Functional interfaces.
 
+Functional Interface:
+functional interface used as the assignment target for a lambda expression or method reference.
+
+Standard Functional interfaces:
+java.util.functions provides out the box functional interface which can be used for lambda expression type.
+
+Predicate
+Represents a predicate (boolean-valued function) of one argument.
+This is a functional interface whose functional method is test(Object).
+boolean test(T t)
+Evaluates this predicate on the given argument.
+Used in if-conditions
+
+Consumer
+Represents an operation that accepts a single input argument and returns no result. Unlike most other functional interfaces,
+This is a functional interface whose functional method is accept(Object).
+void accept(T t)
+Performs this operation on the given argument.
+
+
+
+
 
 
 
