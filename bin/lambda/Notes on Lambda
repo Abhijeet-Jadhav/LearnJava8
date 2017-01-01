@@ -42,3 +42,23 @@ strLength = (String s) -> s.length();
 When you are using an interface for lambda expression type, that interafce should have only one method.
 i.e that interace should be a functional interface.
 
+TypeInferenceExample
+With Java 8 compiler can do Type inference:
+
+RunnableExample:
+You need an instance of Runnable to create a new thread.
+Anonymous inner class to create an instance and call run() method.
+
+Functional Interface:
+
+In java 8 you can have interfaces having implementation methods.
+Functional Interface are interfaces having one and only one abstract method.
+This property can be enfored on interface usign @FunctionalInterface annotation.
+For Lambda expression types we use Functional interfaces.
+
+
+
+
+
+
+
