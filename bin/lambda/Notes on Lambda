@@ -91,6 +91,16 @@ even when the function or object's method is run at a later time, including when
 By this definition, Java anonymous classes (which have been there since Java 1.1) are closures, since they can refer
 to local variables from its enclosing scope.
 
+Difference between lambda and anon inner class?
+anon inner class overrides the this reference while lambda refers to the instance of class where lambda belongs to.
+demonstrated in ThisReferenceExample.java
+
+* Method references
+alternative way for writing lambdas
+
+
+
+
 
 
 

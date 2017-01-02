@@ -95,6 +95,10 @@ Difference between lambda and anon inner class?
 anon inner class overrides the this reference while lambda refers to the instance of class where lambda belongs to.
 demonstrated in ThisReferenceExample.java
 
+* Method references
+alternative way for writing lambdas
+
+
 
 
 
