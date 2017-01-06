@@ -1,6 +1,6 @@
 Java 8 : lambda Basics
 
-Lambdas enable functional programming.
+Lambdas enable functional programming. you treat functions as entities that get passed around.
 They eliminate boiler plate code and make code concise.
 Enable support for parallel processing.
 
@@ -104,7 +104,9 @@ In external iterators you write code to perform the operation imperatively and y
 Internal iterator, forEach loop is introduced in Java 8. you are telling runtime to iterate any way.
 These iterators leverage multi-threading and parallelism
 
-
+Streams in Java 8:
+A sequence of elements supporting sequential and parallel aggregate operations.
+ 
 
 
 
