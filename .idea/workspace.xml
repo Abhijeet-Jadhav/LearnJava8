@@ -2,9 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba86c23-42ae-4a87-85eb-e4499600f15c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lambda/StreamsExample1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/async/programming/Notes.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/datetime/DateTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/datetime/DateTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/datetime/ZoneTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/datetime/ZoneTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/AnonymousTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/AnonymousTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/Demo.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/Demo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/FunctionalInterface.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/FunctionalInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/Interface1.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/Interface1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/Interface2.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/Interface2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/Java8Tester.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/Java8Tester.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/LambdaTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/LambdaTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/LambdaTest2.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/LambdaTest2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/LambdaTest3.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/LambdaTest3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/LambdaTest4.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/LambdaTest4.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/LambdaTest5.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/LambdaTest5.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/LambdaTest6.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/LambdaTest6.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/MultipleInterfaceTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/MultipleInterfaceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/Next.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/Next.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/Sample.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/Sample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/Third.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/Third.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/lambda/lambdaTest7.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/lambda/lambdaTest7.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/CustomerRefTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/CustomerRefTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/Employee.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/Employee.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/EmployeeData.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/EmployeeData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/EmployeeIntf.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/EmployeeIntf.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/EmployeeUtility.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/EmployeeUtility.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/MethodReferenceTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/MethodReferenceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/MethodReferenceTest2.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/MethodReferenceTest2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/MethodReferenceTest3.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/MethodReferenceTest3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/MethodReferenceTest4.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/MethodReferenceTest4.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/MethodReferenceTest5.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/MethodReferenceTest5.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/methodReferences/MethodReferenceTest6.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/methodReferences/MethodReferenceTest6.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/BiPredicateTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/BiPredicateTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/ConsumerTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/ConsumerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/ConsumerTest2.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/ConsumerTest2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/ConsumerTest3.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/ConsumerTest3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/CpuTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/CpuTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/DoubleFuncTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/DoubleFuncTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/FunctionTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/FunctionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/PredicateTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/PredicateTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/SupplierTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/SupplierTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/TestDoubleFunc.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/TestDoubleFunc.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/predefinedFunctinalInterface/UnaryOperatorTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/predefinedFunctinalInterface/UnaryOperatorTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/CollectTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/CollectTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/CompTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/CompTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/FindFirstTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/FindFirstTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/GroupByTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/GroupByTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/OptionalTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/OptionalTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/PartitionTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/PartitionTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/SortTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/SortTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/StreamTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/StreamTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/StreamTest1.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/StreamTest1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/StreamTest2.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/StreamTest2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/StreamTest3.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/StreamTest3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/emc/training/streaming/SumAvgTest.java" afterPath="$PROJECT_DIR$/src/com/java8/tutorial/streaming/SumAvgTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +102,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="370">
-                <caret line="108" column="1" lean-forward="false" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+              <first_editor relative-caret-position="17">
+                <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -59,13 +111,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamsExample1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Notes.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/async/programming/Notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="345">
+                <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamsExample1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lambda/StreamsExample1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="561">
+              <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///opt/jdk/jdk1.8.0_111/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9452">
+              <caret line="585" column="13" lean-forward="false" selection-start-line="584" selection-start-column="7" selection-end-line="585" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#27819#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#26270#26271#0" expanded="false" />
+                <element signature="e#26326#26327#0" expanded="false" />
+                <element signature="e#26957#26958#0" expanded="false" />
+                <element signature="e#27022#27023#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,11 +154,9 @@
       <file leaf-file-name="CollectionIterationExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lambda/CollectionIterationExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="18" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="18" column="10" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="18" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,26 +182,6 @@
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintPersons.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lambda/PrintPersons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionHandlingExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lambda/ExceptionHandlingExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -192,8 +250,9 @@
         <option value="$PROJECT_DIR$/src/lambda/MethodReferenceExample.java" />
         <option value="$PROJECT_DIR$/src/lambda/MethodReferenceExample2.java" />
         <option value="$PROJECT_DIR$/src/lambda/CollectionIterationExample.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/lambda/StreamsExample1.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/async/programming/Notes.md" />
       </list>
     </option>
   </component>
@@ -218,7 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,16 +285,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnJava8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="LearnJava8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -254,10 +302,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lambda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -270,6 +314,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="programming" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,6 +325,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -830,24 +879,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1863" height="941" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3175915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3175915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29677418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27047828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27322704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -858,6 +906,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -874,26 +923,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lambda/ClosuresExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="e#270#271#0" expanded="false" />
-            <element signature="e#323#324#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambda/Notes on Lambda">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lambda/MethodReferenceExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -945,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,6 +1318,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1007">
           <caret line="153" column="17" lean-forward="false" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambda/CollectionIterationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk/jdk1.8.0_111/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9452">
+          <caret line="585" column="13" lean-forward="false" selection-start-line="584" selection-start-column="7" selection-end-line="585" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#27819#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#26270#26271#0" expanded="false" />
+            <element signature="e#26326#26327#0" expanded="false" />
+            <element signature="e#26957#26958#0" expanded="false" />
+            <element signature="e#27022#27023#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambda/StreamsExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1300,8 +1355,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="370">
-            <caret line="108" column="1" lean-forward="false" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+          <first_editor relative-caret-position="17">
+            <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1314,23 +1369,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambda/CollectionIterationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambda/StreamsExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/async/programming/Notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
