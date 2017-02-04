@@ -1,0 +1,7 @@
+
+.gitignore
+bin/
+.classpath
+Java8.iml
+.settings
+.idea

@@ -106,9 +106,3 @@ These iterators leverage multi-threading and parallelism
 
 Streams in Java 8:
 A sequence of elements supporting sequential and parallel aggregate operations.
- 
-
-
-
-
-
