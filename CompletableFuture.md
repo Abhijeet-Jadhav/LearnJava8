@@ -41,6 +41,7 @@ A more flexible approach is handle() that takes a function receiving either corr
 boolean	completeExceptionally(Throwable ex)
 CompletableFuture<T> exceptionally(Function<Throwable,? extends T> fn)
 <U> CompletableFuture<U> handle(BiFunction<? super T,Throwable,? extends U> fn)
+CompletableFuture<T>	whenComplete(BiConsumer<? super T,? super Throwable> action)
 ````
 
 **Combining two CompletableFuture together**
